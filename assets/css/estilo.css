@@ -415,7 +415,7 @@
     max-width: 1500px;
     padding: 120px 112px;
     margin: 0 auto;
-    gap: 60px;
+    gap: 160px;
 }
 
 .contato-texto{
@@ -465,3 +465,46 @@ color: #393960;
     text-decoration: none;
 }
 
+/* Footer */
+
+#footer{
+    background-color: #D7E0DF;
+    max-width: 100%;
+    height: 324px;
+    position: relative;
+}
+
+.container-footer{
+    max-width: 1500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 120px 112px;
+    margin: 0 auto;
+    gap: 100px;
+}
+
+.footer-texto h1 {
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    vertical-align: middle;
+    color: #393960;
+}
+
+.footer-redes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-redes p {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 110.00000000000001%;
+    letter-spacing: 0%;
+    color: #393960;
+}
