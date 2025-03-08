@@ -1,0 +1,467 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER */
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 16px 112px;
+}
+
+#menu {
+    display: flex;
+    justify-content: space-between;
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+}
+
+#menu li {
+    margin-left: 20px; 
+}
+
+#menu a {
+    text-decoration: none;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #393155;
+}
+
+.botao {
+    display: inline-block;
+    color: #393155;
+    text-decoration: none;
+    font-family: 'Gill Sans MT';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    padding: 12px 24px; 
+    border-radius: 16px;
+    border: 2px solid #463885; 
+    background-color: #fff;
+}
+
+/* BANNER */
+#banner{
+    height: 620px;
+    background-color: #E6F5F3;
+}
+
+.container-banner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1500px;
+    padding: 0 0 0 112px;
+    margin: 0 auto;
+}
+.texto-banner{
+    width: 593px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 30px;
+}
+
+.texto-banner .botao{
+    width: 250px;
+    border-bottom: 6px solid #463885;
+}
+
+
+#banner h1 {
+    font-family: Gill Sans MT;
+    font-weight: 700px;
+    font-size: 56px;
+    line-height: 67.2px;
+    color: #393960;
+}
+
+#banner p {
+    font-family: Gill Sans MT;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33.6px;
+    letter-spacing: 0%;
+    color: #393960;
+}
+
+.estudantes {
+    width: 800px;
+    height: 560px;
+    margin-top: 65px;
+    flex-grow: 0;
+}
+
+/* COMERCIAL */
+
+#comercial {
+    background-color: #393155;
+    max-width: 100%;
+    position: relative;
+  
+}
+
+.container-comercial{
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    flex-direction: column;
+    max-width: 1500px;
+    padding: 120px 112px;
+    margin: 0 auto;
+    gap: 100px;
+}
+
+.comercial-texto h1 {
+    font-family: Gill Sans MT;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 67.2px;
+    color: #FFFEFE;
+}
+
+#comercial p {
+    font-family: Gill Sans MT;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33.6px;
+    color: #FFFEFE;
+}
+
+.banner-comercial{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    z-index: 1;
+}
+
+.banner-comercial h2{
+    font-family: 'Gill Sans MT';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFEFE;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.banner-comercial p{
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    opacity: 0.8;
+   
+}
+
+.linhasComercial{
+    position: absolute;
+    top: 55px;
+    right: 0;
+    z-index: 0;
+}
+
+/* PROGRAMA DE CURSOS */
+
+.container-cursos{
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    flex-direction: column;
+    max-width: 1500px;
+    padding: 120px 112px;
+    margin: 0 auto;
+    gap: 60px;
+}
+
+.cursos-texto h1 {
+    font-family: Gill Sans MT;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 67.2px;
+    color: #393960;
+}
+
+.cursos-texto p {
+    width: 593px;
+    margin-top: 30px;
+    font-family: Gill Sans MT;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33.6px;
+    color: #393960;
+}
+
+/* CARDS */
+
+.cards {
+    display: flex;
+    width: 248px;
+    height: 530px;
+    gap: 80px;
+}
+.card1, .card2, .card3, .card4, .card5, .card6, .card7, .card8{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.card-texto{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 16px;
+}
+
+.card-texto h2{
+    font-family: Gill Sans MT;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.14px;
+    color: #3B3F5C;
+    text-align: center;
+}
+
+.card-texto span{
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25.6px;
+    letter-spacing: 0.14px;
+    color: #3B3F5C;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.card-texto p{
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25.6px;
+    letter-spacing: 0.14px;
+    text-align: center;
+    opacity: 0.8;
+    color: #3B3F5C;
+    margin-bottom: 10px;
+}
+
+.card-texto .botao{
+    width: 200px;
+    border-color: #0EABC0;
+    border-bottom: 6px solid #0EABC0;
+    align-self: center;
+}
+
+.cards img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.cards {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.cards .slick-slide {
+    margin: 0 40px;
+    width: 248px !important;
+}
+
+.slick-prev:before, .slick-next:before {
+    font-size: 40px;
+    color: #0EABC0;
+}
+
+/* STBP */
+#stbp{
+    height: 700px;
+    background-color: #E6F5F3;
+}
+
+.container-stbp{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 1500px;
+    padding: 112px;
+    margin: 0 auto;
+}
+
+.stbp-texto{
+    font-family: Gill Sans MT;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 67.2px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #393960;
+}
+.stbp-cards{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+.stbp-card{
+    width: 280px;
+    height: 311px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center;
+    gap: 20px;
+    background: linear-gradient(176.13deg, #FFFFFF 21.5%, rgba(77, 204, 186, 0.5) 307%, #4DCCBA 551.84%);
+    border-image-source: linear-gradient(178.65deg, #FFFFFF -21.5%, rgba(77, 204, 186, 0.75) 137.88%, #4DCCBA 297.27%);
+
+
+
+}
+
+.stbp-card img {
+    max-width: 100%;
+    height: auto; 
+    object-fit: contain; 
+}
+
+.stbp-card h2{
+    font-family: Gill Sans MT;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #393960;
+}
+
+.stbp-card p{
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #393960;
+    opacity: 0.8;
+}
+
+/* CHAMADA */
+
+#chamada{
+    background-color: #393155;
+    max-width: 100%;
+    height: 160px;
+    position: relative;
+}
+
+.container-chamada{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    margin: 0 auto;
+    gap: 100px;
+}
+
+.chamada-texto h1 {
+    font-family: Gill Sans MT;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37.11px;
+    color: #FFFEFE;
+}
+
+.chamada-texto p {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #FDFDFDCC;
+}
+
+#chamada .botao{
+    width: 320px;
+    border-color: #0EABC0;
+    text-align: center;
+}
+
+#chamada img {
+    width: 100px;
+    position: absolute;
+    top: 10px;
+    transform: scaleX(-1);
+}
+
+/* contato */
+
+.container-contato{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1500px;
+    padding: 120px 112px;
+    margin: 0 auto;
+    gap: 60px;
+}
+
+.contato-texto{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+
+.contato-texto p{
+    font-family: Gill Sans MT;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33.6px;
+    color: #393960;
+}
+
+.contato-texto h1 {
+    font-family: Gill Sans MT;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 67.2px;
+    color: #393960;
+}
+
+.contato-info{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.contato-info p{
+    font-family: Gill Sans MT;
+font-weight: 700;
+font-size: 24px;
+line-height: 36px;
+letter-spacing: 0%;
+color: #393960;
+}
+
+.contato-info span, .contato-info a{
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #393960;
+    text-decoration: none;
+}
+
