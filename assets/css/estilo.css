@@ -470,7 +470,7 @@ color: #393960;
 #footer{
     background-color: #D7E0DF;
     max-width: 100%;
-    height: 324px;
+    height: 400px;
     position: relative;
 }
 
@@ -507,4 +507,28 @@ color: #393960;
     line-height: 110.00000000000001%;
     letter-spacing: 0%;
     color: #393960;
+}
+
+.footer-termos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+}
+
+.footer-termos p, a {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 110.00000000000001%;
+    letter-spacing: 0%;
+    color: #393960;
+    text-decoration: none;
+}
+
+.topo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
